@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color:#D8A997;
+    padding-left: 20%;
+    padding-top: 1%;
+}
+table {
+    border-spacing: 15px;
+}
+table input {
+    border: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+.icon img {
+    float: left;
+    margin-left: 40px;
+    height: 40px;
+    width: 40px;
+    margin-top: 40px;
+}
+span {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.dog {
+    background-color: #7f7182;
+    width: 300px;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+.avatar {
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.info {
+    background-color: #fac7c3;
+    width: 400px;
+    height: 500px;
+    float: left;
+}
+
+[class^="col-1"] {
+    width: calc((1/2) * 100%);
+    float: left;
+    background-color: white;
+}
+[class^="col-3"] {
+    width: calc((1/4) * 100%);
+    float: left;
+    background-color: white;
+}
+.form {
+    background-color: white;
+    position: relative;
+    width: 144px;
+    border-radius: 4px;
+}
+.form input {
+    display: none;
+}
+.form-radio-content label{
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    text-align: center;
+    width: 70px;
+}
+.form-input:checked + .form-label{
+    background: #fbb2ac;
+}
+.weight {
+    margin-left: 15px;
+    width: 364px;
+}
+.weight-content label{
+    width: 88px;
+}
+p {
+    margin-left: 15px;
+}
+.submit {
+    background: #ffffff;
+    position: relative;
+    margin-top: 50px;
+    padding: 30px;
+}
+.left {
+    float: left;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 10px ;
+    border: 1px solid gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+.right {
+    float: right;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 10px ;
+    border: 1px solid gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+.submit button:hover {
+    background: #817083;
+}
+.clearfix {
+    clear: both;
+}

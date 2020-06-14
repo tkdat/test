@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="header">
+    <div class="dog">
+        <div class="icon">
+            <img src="Capture.PNG" alt="">
+        </div>
+        <span class="content">PUPASSURE</span>
+        <div class="avatar">
+            <img height="200px" width="200px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-542207-jpeg.png" alt="">
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="info">
+        <div>
+            <span class="content-info">Yay,puppies! Ensure your pup get the best care</span>
+            <table>
+                <tr>
+                    <td>
+                        Name
+                        <br>
+                        <input type="text" placeholder="Pet's name">
+                    </td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Breed
+                        <br>
+                        <input type="text" placeholder="Pet's breed">
+                    </td>
+                    <td>
+                        Birthday
+                        <br>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="row">
+                        Gender
+                        <br>
+                        <div class="radio">
+                            <div class="form">
+                                <div class="form-radio-content">
+                                    <input type="radio" name="gender" id="nam" class="form-input">
+                                    <label for="nam" class="form-label">Nam</label>
+                                    <input type="radio" name="gender" id="nu" class="form-input">
+                                    <label for="nu" class="form-label">Nữ</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        Spayed or Neutered
+                        <br>
+                        <div class="radio">
+                            <div class="form">
+                                <div class="form-radio-content">
+                                    <input name="spay" type="radio" id="spay" class="form-input">
+                                    <label for="spay" class="form-label">Spayed</label>
+                                    <input name="spay" type="radio" id="neu" class="form-input">
+                                    <label for="neu" class="form-label">Neutered</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <p>Weight</p>
+                <div class="form weight">
+                    <div class="form-radio-content weight-content">
+                        <input type="radio" name="weight" id="1" class="form-input">
+                        <label for="1" class="form-label">0-25 lbs</label>
+                        <input type="radio" name="weight" id="2" class="form-input">
+                        <label for="2" class="form-label">25-50 lbs</label>
+                        <input type="radio" name="weight" id="3" class="form-input">
+                        <label for="3" class="form-label">50-100 lbs</label>
+                        <input type="radio" name="weight" id="4" class="form-input">
+                        <label for="4" class="form-label">100+ lbs</label>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="submit">
+            <button class="left">Back</button>
+            <button class="right">Next</button>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</body>
+</html>
